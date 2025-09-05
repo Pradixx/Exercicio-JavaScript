@@ -1,5 +1,5 @@
-var createCounter = function(i) {
-    let count = i;
+var createCounter = function(counter) {
+    let count = counter;
     return function() {
         return count++;
     };
